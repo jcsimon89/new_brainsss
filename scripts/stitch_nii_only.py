@@ -13,7 +13,7 @@ import gc
 
 #get to files
 #date = '20211215'
-dates = ['20240106', '20240108'] 
+dates = ['20240108'] 
 for date in dates:
   print('STARTING DATE:', str(date))
   dataset_path = "/oak/stanford/groups/trc/data/Jacob/ImagingData/Bruker/" + str(date)

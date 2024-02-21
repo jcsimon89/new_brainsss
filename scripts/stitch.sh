@@ -8,6 +8,7 @@
 #SBATCH --open-mode=append
 #SBATCH --mail-type=ALL
 
+source /home/users/jcsimon/venvs/new_brainsss/bin/activate
 ml python/3.6.1
 # ml antspy/0.2.2
 date
