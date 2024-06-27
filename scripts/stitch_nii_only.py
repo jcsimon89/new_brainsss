@@ -13,12 +13,12 @@ import gc
 
 #get to files
 #date = '20211215'
-dates = ['20240613']#'20240618','20240619', '20240621']  #as of 4-27 4-5 still has one bad fly as does 330
+dates = ['20240618','20240619', '20240621']  #as of 4-27 4-5 still has one bad fly as does 330
 for date in dates:
   print('STARTING DATE:', str(date))
   #dataset_path = "/oak/stanford/groups/trc/data/Ashley2/imports/" + str(date)
   #dataset_path = "/oak/stanford/groups/trc/data/krave/bruker_data/imports/" + str(date)
-  dataset_path = f"/oak/stanford/groups/trc/data/Jacob/Bruker/brainsss_imports/{date}"
+  dataset_path = f"/oak/stanford/groups/trc/data/Jacob/Bruker/imports/{date}"
   
   fly_files = os.listdir(dataset_path)  ## find directory names, they are the fly names
   fly_folders = []
